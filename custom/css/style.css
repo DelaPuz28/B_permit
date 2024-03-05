@@ -1,0 +1,51 @@
+.map{
+    width:100vw;
+    height:90vh;
+}
+
+
+ /* popup style */
+ .ol-popup {
+    max-width:300px;
+    min-width:100px;
+    min-height:1em;
+  }
+
+.draw-app{
+    top: 65px;
+    left: .5em;
+}
+.ol-touch .draw-app {
+    top: 80px;
+  }
+  .tooltip-inner {
+    white-space: nowrap;
+  }
+
+  .modal-container {
+    max-width: 100%;
+    padding: 0 10px; 
+  }
+
+  .card {
+    border: none; 
+  }
+
+  canvas {
+    width: 100%; 
+    height: auto; 
+  }
+  
+
+  .multi-column {
+    column-count: 2; 
+    column-gap: 20px; 
+    max-width: 300px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    /* Adjust the max-width value based on your design needs */
+    .map {
+        height: 90vh; /* Use viewport height (vh) instead of a fixed percentage */
+    }
+}
